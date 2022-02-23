@@ -1,0 +1,21 @@
+{
+    "name": "carlosrhedney/klz",
+    "description": "Teste de conhecimento klz",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Klz\\": "vendor\\klz\\php-classes\\src"
+        }
+    },
+    "authors": [
+        {
+            "name": "CarlosRhedney",
+            "email": "twisterpsa@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim":"2.0",
+        "rain/raintpl":"3.0.0"
+    }
+}

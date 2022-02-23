@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'carlosrhedney/klz',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'carlosrhedney/klz' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'rain/raintpl' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rain/raintpl',
+            'aliases' => array(),
+            'reference' => '5bfdf4602b8adb0e80b222fa29ac559aa9c06abf',
+            'dev_requirement' => false,
+        ),
+        'slim/slim' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../slim/slim',
+            'aliases' => array(),
+            'reference' => '3e95c9abbc57a8f023ab4dacebcab9dae4d9f1f0',
+            'dev_requirement' => false,
+        ),
+    ),
+);
